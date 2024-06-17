@@ -32,3 +32,43 @@ https://github.com/mayaworld13/terraform-vpc-loadbalancer/assets/127987256/02b3c
 
 https://github.com/mayaworld13/terraform-vpc-loadbalancer/assets/127987256/b9ef4990-75ca-4da9-b0d0-a51898b64031
 
+# Getting Started
+To use this Terraform configuration:
+
+1. Clone the repository.
+2. Ensure you have Terraform installed.
+3. Configure your AWS credentials.
+4. Create the key pair or use that already created.
+5. Initialize the Terraform configuration:
+
+### creating key pair in case you are not using the used one
+
+```sh
+ssh-keygen -t rsa -b 4096 -f ./id_rsa
+```
+
+### Initialize the Terraform resources
+```sh
+terraform init
+```
+
+### To structure the look and feel of terraform files
+```sh
+terraform fmt
+```
+
+### To validate the syntax
+```sh
+terraform validate
+```
+
+### To plan what will be created after running this configeration
+```sh
+terrform plan
+```
+
+### Apply the configuration to create the infrastructure
+```sh
+terraform apply
+```
+
