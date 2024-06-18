@@ -72,3 +72,8 @@ terrform plan
 terraform apply
 ```
 
+## Contributing
+Contributions are welcome! If you find any issues or improvements, please open an issue or a pull request on GitHub.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
